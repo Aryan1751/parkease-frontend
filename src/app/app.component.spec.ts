@@ -14,17 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'parkease-frontend' title`, () => {
+  it(`should have the 'parkEase.2' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('parkease-frontend');
+    expect(app.title).toEqual('parkEase.2');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, parkease-frontend');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, parkEase.2');
   });
 });
-
