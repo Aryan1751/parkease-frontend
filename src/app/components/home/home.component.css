@@ -1,16 +1,21 @@
 body {
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/686f787220687.562703c575649.jpg');
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 
 body {
   display: flex;
   flex-direction: column;
   background-color: #141414;
-  color: #cbd5e0;
 }
+
 
 .container {
   max-width: 1140px;
@@ -20,6 +25,7 @@ body {
   width: 100%;
 }
 
+
 .sect-hd {
   margin-bottom: 20px;
 }
@@ -27,7 +33,7 @@ body {
 .sect-hd h1 {
   font-size: 2rem;
   font-weight: 500;
-  color: #fff;
+  color: #000000;
   margin-bottom: 10px;
 }
 
@@ -44,7 +50,7 @@ body {
 }
 
 .card {
-  background-color: #000000bd;
+  background-color: #000000c2;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
@@ -61,8 +67,7 @@ body {
 
 .card h2 {
   font-size: 1.25rem;
-  font-weight: 500;
-  color: #fff;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -81,7 +86,7 @@ body {
 
 .footer {
   background-color: #000;
-  color: #cbd5e0;
+  color: #ffffff;
   padding: 40px 0;
   text-align: center;
 }
@@ -98,7 +103,7 @@ body {
 }
 
 .footer ul li a {
-  color: #cbd5e0;
+  color: #f8f8f8;
   text-decoration: none;
 }
 
@@ -110,6 +115,11 @@ body {
   font-size: 0.875rem;
 }
 
+.black-container {
+  background-color: black;
+  padding: 20px;
+}
+
 .container-8 {
   margin-bottom: 40px;
   margin-top: 50px;
@@ -119,9 +129,26 @@ body {
 html {
   height: 100%;
 }
+.container-49{
+  background-color: #00000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.text-white{
+  font-weight: bold;
+}
+.paragraph {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.75; /* You can adjust this value as needed */
+  width: 100%;
+}
 
 body {
-  min-height: 100%;
+
   display: flex;
   flex-direction: column;
 }
