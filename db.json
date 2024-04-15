@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "id": "e8d7",
+      "Name": "Aryan",
+      "vehicleNumber": "UP51696969",
+      "ContactNumber": "8574127005",
+      "vehicleType": "Van",
+      "Date": "2024-04-17",
+      "ArrivalTime": "AM",
+      "DepartureTime": "PM"
+    }
+  ]
+}
